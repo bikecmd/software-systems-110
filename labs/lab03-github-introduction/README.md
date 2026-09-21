@@ -60,18 +60,18 @@ Complete all of the following in your notes section.
 
 ## Checklist
 
-- [ ] Create at least three headers (Level 1, Level 2, Level 3)
-- [ ] Include one horizontal rule
-- [ ] Use bold text
-- [ ] Use italic text
-- [ ] Create a bullet list containing at least three items
-- [ ] Create a numbered list containing at least three items
-- [ ] Create a task list containing at least three tasks
-- [ ] Add a hyperlink with your GitHub profile
+- [x] Create at least three headers (Level 1, Level 2, Level 3)
+- [x] Include one horizontal rule
+- [x] Use bold text
+- [x] Use italic text
+- [x] Create a bullet list containing at least three items
+- [x] Create a numbered list containing at least three items
+- [x] Create a task list containing at least three tasks
+- [x] Add a hyperlink with your GitHub profile
 
 ## Instructions
 
-1. Take notes from the GitHub slides and incorperate into this assignment. (Creative freedom allowed, these are your notes.)
+1. Take notes from the GitHub slides and incorporate them into this assignment. (Creative freedom allowed, these are your notes.)
 2. Your notes must demonstrate every Markdown feature listed in the checklist.
 3. Push your changes to GitHub.
 4. Find this README.md file online and copy the URL of this file from GitHub.
@@ -84,5 +84,29 @@ Complete all of the following in your notes section.
 
 # Section 3: Student Notes
 
-Delete this line and write your notes here.
 
+# Github Notes
+
+---
+
+## Types of Lists Listed With a Numbered List
+
+1. This is a bullet list.
+    - ** This sentence is bold. **
+
+    - * This sentence is italicized. *
+
+    - This sentence is normal.
+
+2. This is a task list.
+    - [x] Task 1
+    - [x] Task 2
+    - [x] Task 3
+
+3. This is not a list.
+
+---
+
+### Hyperlink to my Github Profile
+
+[My Profile](https://github.com/bikecmd)
