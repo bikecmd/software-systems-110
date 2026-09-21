@@ -92,9 +92,9 @@ Complete all of the following in your notes section.
 ## Types of Lists Listed With a Numbered List
 
 1. This is a bullet list.
-    - ** This sentence is bold. **
+    - **This sentence is bold.**
 
-    - * This sentence is italicized. *
+    - *This sentence is italicized.*
 
     - This sentence is normal.
 
