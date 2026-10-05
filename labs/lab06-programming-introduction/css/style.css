@@ -6,14 +6,13 @@
 
 body {
     background: linear-gradient(
-        to bottom,
-        #090014 0%,
-        #1b0033 50%,
-        #12001f 100%
+        to right,
+        #3b0766 0%,
+        #ba66ff 100%
     );
 
-    color: #ffffff;
-    font-family: "Segoe UI", Arial, sans-serif;
+    color: #c5afd6;
+    font-family: "Comic Sans MS", "Comic Sans", sans-serif;
 
     min-height: 100vh;
 
@@ -37,22 +36,22 @@ body {
 
     padding: 25px;
 
-    background: rgba(0, 0, 0, 0.25);
+    background: #3b0766;
 
-    border: 2px solid #66e6ff;
+    border: 2px solid #ba66ff;
     border-radius: 10px;
 
     box-shadow:
-        0 0 15px #66e6ff,
-        0 0 30px rgba(102, 230, 255, 0.25);
+        0 0 15px #ba66ff,
+        0 0 30px #ba66ff;
 }
 
 /* ===== Rules ===== */
 
 .rules {
-    font-family: Consolas, "Courier New", monospace;
+    font-family: "Comic Sans MS", "Comic Sans", sans-serif;
 
-    color: #e8e8e8;
+    color: #c5afd6;
 
     line-height: 1.8;
 }
@@ -64,14 +63,14 @@ body {
 
     padding: 30px;
 
-    background: rgba(0, 0, 0, 0.25);
+    background: #3b0766;
 
-    border: 2px solid #ff66cc;
+    border: 2px solid #ba66ff;
     border-radius: 10px;
 
     box-shadow:
-        0 0 15px #ff66cc,
-        0 0 30px rgba(255, 102, 204, 0.35);
+        0 0 15px #ba66ff,
+        0 0 30px #ba66ff;
 }
 
 /* ===== Headings ===== */
@@ -79,28 +78,28 @@ body {
 h1,
 h2,
 h3 {
-    font-family: "Orbitron", sans-serif;
+    font-family: "Comic Sans MS", "Comic Sans", sans-serif;
 }
 
 h1 {
-    color: #ff66cc;
+    color: #ba66ff;
 
     margin-top: 0;
     margin-bottom: 20px;
 
-    text-shadow: 0 0 4px rgba(255, 102, 204, 0.25);
+    text-shadow: 0 0 4px #ba66ff;
 }
 
 h2 {
-    color: #66e6ff;
+    color: #ba66ff;
 
     margin-top: 30px;
 
-    text-shadow: 0 0 4px rgba(102, 230, 255, 0.2);
+    text-shadow: 0 0 4px #ba66ff;
 }
 
 h3 {
-    color: #ffb347;
+    color: #ba66ff;
 
     margin-top: 0;
     margin-bottom: 15px;
@@ -109,14 +108,14 @@ h3 {
 /* ===== Text ===== */
 
 p {
-    color: #f0f0f0;
+    color: #c5afd6;
 
     font-size: 1.05rem;
     line-height: 1.7;
 }
 
 strong {
-    color: #ffb347;
+    color: #ba66ff;
 }
 
 /* ===== Variable Cards ===== */
@@ -133,19 +132,19 @@ strong {
 
     padding: 20px;
 
-    background: rgba(0, 0, 0, 0.20);
+    background: #3b0766;
 
-    border: 2px solid #ff66cc;
+    border: 2px solid #ba66ff;
     border-radius: 8px;
 
     box-shadow:
-        0 0 10px rgba(255, 102, 204, 0.25);
+        0 0 10px #ba66ff;
 }
 
 /* ===== Labels ===== */
 
 label {
-    color: #f5f5f5;
+    color: #c5afd6;
 
     font-weight: 600;
 }
@@ -158,26 +157,26 @@ select {
     padding: 10px;
     margin-top: 10px;
 
-    background-color: #1a102b;
+    background-color: #3b0766;
 
-    color: white;
+    color: #c5afd6;
 
-    border: 2px solid #ff66cc;
+    border: 2px solid #ba66ff;
     border-radius: 6px;
 
     font-size: 1rem;
     font-family: inherit;
 
     box-shadow:
-        0 0 8px rgba(255, 102, 204, 0.5);
+        0 0 8px #ba66ff;
 
     outline: none;
 }
 
 select:focus {
     box-shadow:
-        0 0 12px #ff66cc,
-        0 0 20px rgba(255, 102, 204, 0.5);
+        0 0 12px #ba66ff,
+        0 0 20px #ba66ff;
 }
 
 /* ===== Button ===== */
@@ -189,11 +188,11 @@ button {
 
     background: linear-gradient(
         to right,
-        #ff0088,
-        #ff7a18
+        #ba66ff,
+        #c5afd6
     );
 
-    color: white;
+    color: #c5afd6;
 
     border: none;
     border-radius: 6px;
@@ -207,7 +206,7 @@ button {
     cursor: pointer;
 
     box-shadow:
-        0 0 12px rgba(255, 0, 136, 0.6);
+        0 0 12px #ba66ff;
 
     transition: all 0.2s ease;
 }
@@ -216,8 +215,8 @@ button:hover {
     transform: translateY(-2px);
 
     box-shadow:
-        0 0 18px rgba(255, 0, 136, 0.8),
-        0 0 30px rgba(255, 0, 136, 0.4);
+        0 0 18px #ba66ff,
+        0 0 30px #ba66ff;
 }
 
 /* ===== Output ===== */
@@ -229,19 +228,19 @@ button:hover {
 
     padding: 15px;
 
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: #000000;
 
-    border: 2px solid #66e6ff;
+    border: 2px solid #ba66ff;
     border-radius: 6px;
 
-    color: #ffffff;
+    color: #c5afd6;
 
     font-size: 1rem;
     line-height: 1.8;
 
     box-shadow:
-        0 0 12px rgba(102, 230, 255, 0.6),
-        0 0 25px rgba(102, 230, 255, 0.25);
+        0 0 12px #ba66ff,
+        0 0 25px #3b0766;
 }
 
 /* ===== Mobile ===== */
